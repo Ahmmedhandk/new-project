@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Coffee</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">☕ Student Coffee</div>
+    <h1>Student Coffee Menu</h1>
+    <div class="cart">
+      <h2>Cart</h2>
+      <ul id="cart-list"></ul>
+      <p>الإجمالي: <span id="total"></span> ج.م</p>
+      <button id="order-btn">اطلب الآن</button>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Hot Drinks -->
+    <section>
+      <h2>المشروبات الساخنة</h2>
+      <div class="products">
+        <div class="product" data-price="50" data-name="قهوة">
+          <img src="images/coffee.jpg" alt="قهوة">
+          <h3>قهوة</h3>
+          <p>50 ج.م</p>
+          <div class="controls">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="product" data-price="35" data-name="شاي">
+          <img src="images/tea.jpg" alt="شاي">
+          <h3>شاي</h3>
+          <p>35 ج.م</p>
+          <div class="controls">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="product" data-price="75" data-name="لاتيه">
+          <img src="images/lati.jpg" alt="لاتيه">
+          <h3>لاتيه</h3>
+          <p>75 ج.م</p>
+          <div class="controls">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="product" data-price="60" data-name="الاسبريسو">
+          <img src="images/espresso.jpg" alt="الاسبريسو">
+          <h3>الاسبريسو</h3>
+          <p>70 ج.م</p>
+          <div class="controls">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="product" data-price="40" data-name="هوت شوكلت">
+          <img src="images/hot chocolate.jpg" alt="هوت شوكلت">
+          <h3>هوت شوكلت</h3>
+          <p>80 ج.م</p>
+          <div class="controls">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cold Drinks -->
+    <section>
+      <h2>المشروبات المثلجة</h2>
+      <div class="products">
+        <div class="product" data-price="100" data-name="أفوكادو">
+          <img src="images/avocado.jpg" alt="أفوكادو">
+          <h3>أفوكادو</h3>
+          <p>100 ج.م</p>
+          <div class="controls">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="product" data-price="55" data-name="بطيخ">
+          <img src="images/watermelon.jpg" alt="بطيخ">
+          <h3>بطيخ</h3>
+          <p>45 ج.م</p>
+          <div class="controls">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="product" data-price="50" data-name="مانجو">
+          <img src="images/mango.jpg" alt="مانجو">
+          <h3>مانجو</h3>
+          <p>50 ج.م</p>
+          <div class="controls">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="product" data-price="35" data-name="برتقال">
+          <img src="images/orange.jpg" alt="برتقال">
+          <h3>برتقال</h3>
+          <p>35 ج.م</p>
+          <div class="controls">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="product" data-price="30" data-name="موز">
+          <img src="images/banana.jpg" alt="موز">
+          <h3>موز</h3>
+          <p>30 ج.م</p>
+          <div class="controls">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>©️ 2025 Student Coffee - جميع الحقوق محفوظة</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
