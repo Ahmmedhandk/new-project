@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6f4e37;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  header h1 {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .cart {
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    width: 200px;
+    font-size: 14px;
+  }
+  
+  .cart h2 {
+    margin-top: 0;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+  
+  .cart button {
+    width: 100%;
+    padding: 8px;
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .cart button:hover {
+    background-color: #4e3528;
+  }
+  
+  /* Main Content */
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    margin-bottom: 15px;
+    color: #6f4e37;
+    border-bottom: 2px solid #6f4e37;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .product:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .product h3 {
+    margin: 10px 0 5px 0;
+  }
+  
+  .product p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .controls {
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background: #6f4e37;
+    color: white;
+    transition: background 0.2s;
+  }
+  
+  button:hover {
+    background: #4e3528;
+  }
+  
+  .quantity {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background: #6f4e37;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
